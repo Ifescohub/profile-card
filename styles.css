@@ -7,8 +7,8 @@ body{
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom right;
-    background-size: 400px 400px, 400px 400px;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
