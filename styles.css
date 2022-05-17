@@ -1,0 +1,97 @@
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    text-align: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    background-size: 400px 400px, 400px 400px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    line-height: 1;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+hr{
+    border-style: none;
+    height: 1px;
+    background-color: hsl(0, 5%, 89%);
+}
+
+.card{
+    display: block;
+    width: 20rem;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+}
+
+
+/* First Container  */
+
+.top-image{
+    width: 20rem;
+    position: relative;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+
+
+/* Second Container  */
+
+.container-2{
+    position: relative;
+    z-index: 1;
+    bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.owner-image{
+    border-radius: 100%;
+    width: fit-content;
+}
+
+
+/* Card Description Section  */
+
+.card-description{
+    margin: 7% auto;
+}
+
+/* Rating Section  */
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 40px;
+    line-height: 0.5;
+}
+
+.rating-text{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
